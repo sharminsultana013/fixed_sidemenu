@@ -1,0 +1,65 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Poppins:ital,wght@0,400;1,600&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+
+.leftSideMenu{
+    background-color: #273747;
+    height: 100vh;
+    overflow-x: hidden; 
+    position: fixed;
+}
+
+.leftSideInner{
+    position: -webkit-sticky;
+	position: sticky;
+}
+
+.avatarImage{
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+.text{
+    color: white;
+}
+
+.avatarName{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.avatarDesignation{
+    overflow-y: hidden;
+    text-align: center;
+    font-weight: 100;
+}
+
+.rightSide{
+    padding: 5%;
+}
+
+.list-group a{
+    text-decoration: none;
+}
+
+.list-group-item{
+    background-color: #273747;
+    border: none;
+    color: white;
+    text-align: left;
+}
+
+@media screen and (max-width: 770px) 
+{
+    .leftSideMenu{
+        position: relative;
+    }
+}
